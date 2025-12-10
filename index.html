@@ -2,12 +2,134 @@
 <html>
     <head>
         <title>Finova Data Viewer</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
        <h1>Finova Data Viewer</h1>
-       <label for="Input">Input</label><img src="" alt=""> 
-       <input type="text" id="Input">
-       <br><br>
+       <label for="Input">Search</label> 
+       <input type="text" id="Input" placeholder="Input Stock symbol/Cryptocurrency name" size="35px">
+       <br>
        <button type="button">Search</button>
+       <div class="box" id="stockBox">
+        <h2>Stock Information</h2>
+        <p class="placeholder">India has six major operating stock exchanges, with the Bombay Stock Exchange (BSE) and National Stock Exchange (NSE) being the most prominent.International exchanges (India INX, NSE IX) and specialized ones (MSE, USE, MCX, NCDEX, ICEX) broaden the scope to global and commodity trading.</p>
+        <h3><strong>Key Stock Exchanges in India</strong></h3>
+        <ol>
+            <li>Bombay Stock Exchange (BSE)</li>
+            <ul>
+                <li>Founded in 1875,headquartered in Mumbai.</li>
+                <li>Oldest exchange in Asia with ~5000 listed companies</li>
+                <li>Known for the benchmark index SENESEX</li>
+            </ul>
+            <li>National Stock Exchange (NSE)</li>
+            <ul>
+                <li>Established in 1992, also in Mumbai.</li>
+                <li>India's largest exchange by volume and market capitalization</li>
+                <li>Benchmark index: NIFTY 50</li>
+            </ul>
+            <li>India International Exchange (India INX)</li>
+            <ul>
+                <li>Located in Gujarat</li>
+                <li>- Provides international trading opportunities for Indian investors.</li>
+            </ul>
+            <li>NSE International Exchange (NSE IX)</li>
+            <ul>
+                <li>Also in Gujarat</li>
+                <li>- Provides international trading opportunities for Indian investors.</li>
+            </ul>
+            <li>Metropolitan Stock Exchange (MSE)</li>
+            <ul>
+                <li>Based in Mumbai.</li>
+                <li>Offers trading in equities, derivatives, and debt instruments.</li>
+            </ul>
+            <li>United Stock Exchange (USE)</li>
+            <ul>
+                <li>- Specializes in currency derivatives trading.</li>
+            </ul>
+        </ol>
+        <table>
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Price</th>
+                    <th>Change</th>
+                    <th>%Change</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NIFTY 50</td>
+                    <td>25758.00</td>
+                    <td>-81.65</td>
+                    <td>-0.32</td>
+                </tr>
+                <tr>
+                    <td>SENSEX</td>
+                    <td>84391.27</td>
+                    <td>-275.01</td>
+                    <td>-0.32</td>
+                </tr>
+                <tr>
+                    <td>NIFTY BANK</td>
+                    <td>58960.40</td>
+                    <td>--261.95</td>
+                    <td>-0.44</td>
+                </tr>
+                <tr>
+                    <td>NIFTY IT</td>
+                    <td>37789.90</td>
+                    <td>-340.70</td>
+                    <td>-0.89</td>
+                </tr>
+                <tr>
+                    <td>BSE SMALLCAP</td>
+                    <td>50305.70/td>
+                    <td>-295.71</td>
+                    <td>-0.58</td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+       <hr>
+       <div div class="box" id="cryptoBox">
+        <h2>Crypto Information</h2>
+        <p class="placeholder">The following are one of the most widely recognized cryptocurrencies that operate as coins. Each of these runs on its own blockchain, has a large user base, and plays a major role in shaping the crypto market today.These figures reflect data as of July 14, 2025, and may have changed significantly since.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cryptocurrency Name</th>
+                    <th>Price</th>
+                    <th>Market Capitalization</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bitcoin (BTC)</td>
+                    <td>$120,195.80</td>
+                    <td>$2.3 trillion</td>
+                </tr>
+                <tr>
+                    <td>Ether (ETH)</td>
+                    <td>$3,021.2</td>
+                    <td>$364 billion</td>
+                </tr>
+                <tr>
+                    <td>XRP (XRP)</td>
+                    <td>$2.97</td>
+                    <td>$176 billion</td>
+                </tr>
+                <tr>
+                    <td>Binance Coin (BNB)</td>
+                    <td>$693.38</td>
+                    <td>$96.5 billion</td>
+                </tr>
+                <tr>
+                    <td>Solana (SOL)</td>
+                    <td>$165</td>
+                    <td>$88 billion</td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
     </body>
 </html>

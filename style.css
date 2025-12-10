@@ -1,0 +1,11 @@
+body{
+    table{
+        border-style: solid;
+        border-width: 5px;
+        border-color: blue;
+        border-radius: 5px;
+    }
+    ul {
+  list-style-type: disc; 
+}
+}
