@@ -1,11 +1,67 @@
 body{
-    table{
-        border-style: solid;
-        border-width: 5px;
-        border-color: blue;
-        border-radius: 5px;
-    }
+  background-color: aliceblue;
+}
+header{
+  background-color: rgb(16, 16, 84);
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+h1{
+  align-items: center;
+}
+.search-section input{
+  border-radius: 5px;
+  padding: auto;
+  width: 380px;
+  height: 50px;
+  border: 1px solid;
+  font-size: larger;
+  box-sizing: border-box;
+}
+  .search-section button{
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid;
+  font-size: larger;
+  cursor: pointer;
+}
+.box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;         /* centers the box */
+  width: 500px;        /* adjusts width to content */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  align-items: flex-end;
+}
+
+table{
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(20, 20, 97);
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-collapse: collapse;
+ }
+th,td{
+  padding:15px;
+  text-align: left;
+  border-bottom: #ddd 1px solid;
+}
+th{
+  background-color: bisque;
+}
+td{
+  background-color: #f2f2f2;
+}
     ul {
   list-style-type: disc; 
-}
 }
