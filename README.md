@@ -2,7 +2,8 @@ Finova Data Viewer
 
 A web-based user interface design for viewing different stock indices information and cryptocurrency information, having a sidebar and interactive tables and buttons.
 
-
+Key Git commands:
+![Basic Git commands](images/Git-commands.png)
 
 CLIENT SERVER MODEL
 
