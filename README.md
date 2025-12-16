@@ -2,7 +2,7 @@ Finova Data Viewer
 
 A web-based user interface design for viewing different stock indices information and cryptocurrency information, having a sidebar and interactive tables and buttons.
 
-![User interface][images/UT1.png]
+![User interface](images/UI1.png)
 ![User interface](images/UI2.png)
 ![User interface](images/UI3.png)
 
@@ -14,7 +14,7 @@ Features:
 4. Crypto Information container having table of details of different cryptocurrencies.
 5. Sidebar Menu for choosing among Stock Information, Crypto Information, Analysis, Settings and FAQs
 
-Requirements:
+Languages Used:
 
 1. HTML
 2. CSS
