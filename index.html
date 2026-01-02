@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finova Data Viewer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <header>
+        <h1>Finova Data Viewer</h1>
+        <div class="search-section">
+            <input type="text" id="Input" placeholder="Enter Stock symbol/Cryptocurrency name  " size="35px">
+            <button type="button">Search</button>
+        </div>
+       </header>
+       <br>
+       <div class="page">
+        <div class="sidebar">
+    <h3>Menu</h3>
+    <ul>
+      <li><a href="#" class="active">Stock Information</a></li>
+      <select name="Stock Info" id="Stock info">
+        <option value="Index">Index</option>
+        <option value="Price">Price</option>
+        <option value="Change">Change</option>
+        <option value="%Change">%Change</option>
+        <option value="Yield">Dividend Yield</option>
+    </select><br><br>
+      <li><a href="#">Crypto Information</a></li>
+      <select name="Crypto Info" id="Crypto info">
+        <option value="Index"> Cryptocurrency Name</option>
+        <option value="Price">Price</option>
+        <option value="Market">Market Capitalisation</option>
+    </select><br><br>
+      <li><a href="#">Analysis</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">FAQs</a></li>
+    </ul>
+  </div>
+       <div class="layout">
+       <div class="box" id="stockBox">
+        <h2>Stock Information</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Price</th>
+                    <th>Change</th>
+                    <th>%Change</th>
+                    <th>Dividend Yield</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NIFTY 50</td>
+                    <td>25758.00</td>
+                    <td>-81.65</td>
+                    <td>-0.32</td>
+                    <td>1.29</td>
+                </tr>
+                <tr>
+                    <td>SENSEX</td>
+                    <td>84391.27</td>
+                    <td>-275.01</td>
+                    <td>-0.32</td>
+                    <td>1.14</td>
+                </tr>
+                <tr>
+                    <td>NIFTY BANK</td>
+                    <td>58960.40</td>
+                    <td>-261.95</td>
+                    <td>-0.44</td>
+                    <td>0.98</td>
+                </tr>
+                <tr>
+                    <td>NIFTY IT</td>
+                    <td>37789.90</td>
+                    <td>-340.70</td>
+                    <td>-0.89</td>
+                    <td>2.89</td>
+                </tr>
+                <tr>
+                    <td>BSE SMALLCAP</td>
+                    <td>50305.70</td>
+                    <td>-295.71</td>
+                    <td>-0.58</td>
+                    <td>0.60</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+       <div class="box" id="cryptoBox">
+        <h2>Crypto Information</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cryptocurrency Name</th>
+                    <th>Price</th>
+                    <th>Market Capitalization</th>
+                </tr>
+            </thead>
+            <tbody id="cryptoTableBody">
+  <!-- Rows will be injected dynamically -->
+</tbody>
+        </table>
+       </div>
+       </div>
+       
+</div>
+<script type="module" src="/main.js"></script>
+    </body>
+</html>
